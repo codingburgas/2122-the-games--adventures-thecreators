@@ -33,11 +33,5 @@ iframe {
     top: 38%;
     position: absolute;
     margin-left: 1.5%;
-    border: 3px solid lightcoral;
-}
-
-h5 {
-    position: absolute;
-    top: 111%;
-    color: whitesmoke;
+    border: 2px solid lightcoral;
 }

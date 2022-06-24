@@ -23,8 +23,8 @@ ul {
     position: absolute;
     top: -5px;
     width: 98.7%;
-    border-bottom-right-radius: 10%;
-    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 7%;
 }
 
 li {
