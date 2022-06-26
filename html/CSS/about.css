@@ -1,5 +1,20 @@
 @import url(main.css);
 
 body {
-    background-image: url("../Resources/aboutbg.jpg");
+    background-image: url("../Resources/bg2.png");
+}
+
+.story {
+    margin-top: 20%;
+    font-size: x-large;
+    color: rgb(88, 30, 30);
+    font-weight: 900;
+    background-color: rgba(222, 145, 145, 0.55);
+    margin-left: 30%;
+    border-radius: 10%;
+    border-bottom-right-radius: 30%;
+    padding: 3%;
+    margin-right: 18%;
+    position: relative;
+    border: 5px solid lightsalmon;
 }

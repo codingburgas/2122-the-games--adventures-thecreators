@@ -5,9 +5,8 @@ body {
 }
 
 .card {
-  margin-top: 10%;
-  margin-left: 7%;
-  position: relative;
+  margin-top: 8%;
+  margin-left: 20%;
 }
 
 .outer-div {
@@ -68,7 +67,7 @@ body {
   position: relative;
   height: 150px;
   width: 300px;
-  background: url("https://images.unsplash.com/photo-1511207538754-e8555f2bc187?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=88672068827eaeeab540f584b883cc66&auto=format&fit=crop&w=1164&q=80") no-repeat;
+  background: url("../Resources/forest.webp") no-repeat;
   background-size: cover;
   backface-visibility: hidden;
   overflow: hidden;
@@ -85,7 +84,7 @@ body {
   width: 100%;
 }
 
-.front__face-photo {
+.front__face-photoL {
   position: relative;
   top: -60px;
   height: 120px;
@@ -93,7 +92,33 @@ body {
   margin: 0 auto;
   border-radius: 50%;
   border: 5px solid #fff;
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/156905/profile/profile-512.jpg") no-repeat;
+  background: url("../Resources/Lazar.jfif") no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.front__face-photoI {
+  position: relative;
+  top: -60px;
+  height: 120px;
+  width: 120px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  background: url("../Resources/IVo.jpg") no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.front__face-photoS {
+  position: relative;
+  top: -60px;
+  height: 120px;
+  width: 120px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  background: url("../Resources/Stelian.jfif") no-repeat;
   background-size: contain;
   overflow: hidden;
 }
@@ -112,6 +137,7 @@ body {
   font-family: "Oswald";
   text-transform: uppercase;
   font-size: 20px;
+  line-height: 180%;
 }
 
 .front__text .front__text-para {
@@ -121,6 +147,7 @@ body {
   font-size: 14px;
   letter-spacing: 0.4px;
   font-weight: 400;
+  line-height: 200%;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -202,4 +229,42 @@ body {
 
 .fab:hover {
   top: -5px;
+}
+
+footer {
+  margin-left: 15%;
+  padding: 3%;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 60%;
+  border-bottom-right-radius: 100%;
+  width: 50%;
+  margin-top: 10%;
+  display: flex;
+  float: bottom;
+  background-image: url("../Resources/bg.jpg")
+}
+
+p {
+  padding: 1%;
+  text-align: center;
+  line-height: 140%;
+  font-size: x-large;
+  color: lightgrey;
+  margin-left: 3%;
+}
+
+.creators {
+  color: #7a00ff;
+  text-decoration: none;
+}
+
+a:visited.creators {
+  font-weight: bolder;
+  color: #370072;
+}
+
+a:visited.creators {
+  font-weight: bolder;
+  color: #370072;
 }

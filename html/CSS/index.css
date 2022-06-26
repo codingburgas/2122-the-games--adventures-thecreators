@@ -1,6 +1,7 @@
 @import url(main.css);
 
 body {
+    background-position: 80%;
     background-image: url("../Resources/indexbg.jpg");
 }
 
@@ -34,4 +35,11 @@ iframe {
     position: absolute;
     margin-left: 1.5%;
     border: 2px solid lightcoral;
+}
+
+h6 {
+    font-size: larger;
+    color:#7a00ff;
+    text-decoration: underline;
+    line-height: 130%;
 }
