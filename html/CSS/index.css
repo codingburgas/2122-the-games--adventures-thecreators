@@ -1,0 +1,45 @@
+@import url(main.css);
+
+body {
+    background-position: 80%;
+    background-image: url("../Resources/indexbg.jpg");
+}
+
+article {
+    line-height: 150%;
+    font-size: x-large;
+    margin-top: 7%;
+    margin-right: 53%;
+    margin-left: 1.8%;
+    color: bisque;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    padding: 1%;
+    text-align: center;
+    line-height: 140%;
+    font-size: x-large;
+    color: lightgrey;
+    margin-left: 3%;
+}
+
+.creators {
+    color: #7a00ff;
+    text-decoration: none;
+}
+
+iframe {
+    top: 38%;
+    position: absolute;
+    margin-left: 1.5%;
+    border: 2px solid lightcoral;
+}
+
+h6 {
+    font-size: larger;
+    color:#7a00ff;
+    text-decoration: underline;
+    line-height: 130%;
+}
